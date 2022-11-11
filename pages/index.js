@@ -6,6 +6,7 @@ import { KenapaCyberkarta } from '../components/KenapaCyberkarta'
 import { Navbar } from '../components/Navbar'
 import { PertanyaanUmum } from '../components/PertanyaanUmum'
 import { Discord } from '../components/Discord'
+import { SocialMedia } from '../components/SocialMedia'
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
         <KenapaCyberkarta />
         <PertanyaanUmum />
         <Discord />
+        <SocialMedia />
       </main>
 
       <footer className="">
