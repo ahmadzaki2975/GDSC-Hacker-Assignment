@@ -1,26 +1,23 @@
 import { KelasCard } from "./KelasCard";
+import { useState, useEffect } from "react";
 
 export const Kelas = () => {
-  const kelas = [
-    {
-      type: "Premium",
-      title: "Basic Web Security For Pentester And Bug Bounty Hunter",
-      level: "All Levels",
-      price: "Rp. 500.000",
-    },
-    {
-      type: "Free",
-      title: "Dokumentasi CTF 2022",
-      level: "Intermediate",
-      price: "Rp. 0"
-    },
-    {
-      type: "Free",
-      title: "Advent Of Cyber TryHackMe 2021 With Cyberkarta",
-      level: "Beginner",
-      price: "Rp. 0"
-    }
-  ];
+  const [kelas, setKelas] = useState([]);
+  
+  //? Fetch data from API
+  const axios = require("axios");
+  useEffect(() => {
+    axios
+      .get("/api/kelas")
+      .then((response) => {
+        console.log(response.data)
+        setKelas(response.data);
+      })
+      .catch((error) => {
+        console.log(error);
+      });
+  }, []);
+
   return (
     <div className="flex flex-col items-center h-screen bg-cyberkarta-light">
       <h1 className="text-5xl font-bold text-cyberkarta-blue">Kelas</h1>
