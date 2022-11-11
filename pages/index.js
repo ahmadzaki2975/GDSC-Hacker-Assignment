@@ -4,6 +4,7 @@ import { Hero } from '../components/Hero'
 import { Kelas } from '../components/Kelas'
 import { KenapaCyberkarta } from '../components/KenapaCyberkarta'
 import { Navbar } from '../components/Navbar'
+import { PertanyaanUmum } from '../components/PertanyaanUmum'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Hero />
         <Kelas />
         <KenapaCyberkarta />
+        <PertanyaanUmum />
       </main>
 
       <footer className="">
