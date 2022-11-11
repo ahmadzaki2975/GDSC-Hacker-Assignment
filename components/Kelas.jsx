@@ -27,7 +27,7 @@ export const Kelas = () => {
       <p className="mt-3 mb-5 text-xl text-cyberkarta-dark">
         Pilih kelas Cyber Security sesuai minatmu
       </p>
-      <div className="grid grid-cols-3 gap-5 mx-32">
+      <div className="grid grid-cols-3 w-fit gap-5 place-content-center">
         {kelas.map((item, index) => {
           return (
             <KelasCard
