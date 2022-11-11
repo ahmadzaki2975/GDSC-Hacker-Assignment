@@ -35,6 +35,9 @@ export default function Home() {
           This clone web is made by <a href='https://github.com/ahmadzaki2975' className='text-blue-200 underline'>Ahmad Zaki Akmal </a>
           <br />
           for education purposes only
+          <br />
+          <br />
+          <a href="https://github.com/ahmadzaki2975/GDSC-Hacker-Assignment" className='text-blue-200 underline'>Repository</a>
         </div>
       </footer>
     </div>
