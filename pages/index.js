@@ -7,6 +7,7 @@ import { Navbar } from '../components/Navbar'
 import { PertanyaanUmum } from '../components/PertanyaanUmum'
 import { Discord } from '../components/Discord'
 import { SocialMedia } from '../components/SocialMedia'
+import { Footer } from '../components/Footer'
 
 export default function Home() {
   return (
@@ -29,6 +30,12 @@ export default function Home() {
       </main>
 
       <footer className="">
+        <Footer />
+        <div className='bg-black text-center text-cyberkarta-light'>
+          This clone web is made by <a href='https://github.com/ahmadzaki2975' className='text-blue-200 underline'>Ahmad Zaki Akmal </a>
+          <br />
+          for education purposes only
+        </div>
       </footer>
     </div>
   )
