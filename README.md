@@ -1,6 +1,6 @@
 # GDSC Hacker Assignment - Web Developer
 
-A clone from the home page of [Cyberkarta's Website](https://www.cyberkarta.com)
+A clone from the home page of [Cyberkarta's Website](https://www.cyberkarta.com) as an assignment of GDSC UGM's Open Recruitment.
 
 ### ⚠ Disclaimer
 
