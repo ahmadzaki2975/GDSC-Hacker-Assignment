@@ -60,7 +60,7 @@ export const Navbar = () => {
         </ul>
         <div className="flex items-center gap-5">
           <div className="text-cyberkarta-blue cursor-pointer">Masuk</div>
-          <div className="bg-cyberkarta-blue px-4 py-2 rounded-md cursor-pointer hover:bg-blue-600 hover:shadow-lg">Daftar</div>
+          <div className="bg-cyberkarta-blue px-4 py-2 text-cyberkarta-light rounded-md cursor-pointer hover:bg-blue-600 hover:shadow-lg">Daftar</div>
         </div>
       </div>
     </div>

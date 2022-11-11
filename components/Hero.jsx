@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export const Hero = () => {
   return (
-    <div className="h-[87vh] bg-cyberkarta-light text-cyberkarta-blue font-Nunito px-16 flex justify-between items-center">
+    <div className="h-[87vh] bg-cyberkarta-light text-cyberkarta-blue px-16 flex justify-between items-center">
       <div className="text-5xl flex flex-col gap-2">
         Bangun Karirmu di Bidang
         <h1 className="font-extrabold">Cyber Security</h1>
