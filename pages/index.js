@@ -5,6 +5,7 @@ import { Kelas } from '../components/Kelas'
 import { KenapaCyberkarta } from '../components/KenapaCyberkarta'
 import { Navbar } from '../components/Navbar'
 import { PertanyaanUmum } from '../components/PertanyaanUmum'
+import { Discord } from '../components/Discord'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <Kelas />
         <KenapaCyberkarta />
         <PertanyaanUmum />
+        <Discord />
       </main>
 
       <footer className="">
