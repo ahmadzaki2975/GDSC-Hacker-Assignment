@@ -9,8 +9,8 @@ export const KenapaCyberkarta = () => {
   return (
     <div className="bg-cyberkarta-light h-screen flex justify-between items-center px-16">
       <div className="">
-        <h1 className="text-5xl mb-4">
-          Kenapa <span className="font-extrabold text-cyberkarta-blue">Cyberkarta?</span>
+        <h1 className="text-5xl mb-4 text-cyberkarta-blue">
+          Kenapa <span className="font-extrabold ">Cyberkarta?</span>
         </h1>
         <p className="text-xl max-w-[35ch]">
           Saatnya kamu dapat belajar Cyber Security di mana saja dan kapan saja
