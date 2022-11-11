@@ -1,6 +1,6 @@
 export const Navbar = () => {
   return (
-    <div className="bg-cyberkarta-light py-3 px-16">
+    <div className="bg-red-500 py-3 px-16">
       <svg width="177" height="40" viewBox="0 0 177 40" fill="none">
       <circle cx="20" cy="20" r="20" fill="#203672"></circle>
       <path
