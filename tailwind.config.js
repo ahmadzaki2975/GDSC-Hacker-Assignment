@@ -12,6 +12,9 @@ module.exports = {
         "cyberkarta-light": "#F1F5FA",
         "cyberkarta-dark": "#333333",
       },
+      fontFamily: {
+        "Nunito": ["Nunito", "sans-serif"],
+      }
     },
   },
   plugins: [],
