@@ -17,9 +17,9 @@ export const Discord = () => {
           Bergabunglah dengan grup Cyberkarta agar dapat berdiskusi bersama
           pengajar berpengalaman
         </p>
-        <div className="mt-5 bg-cyberkarta-blue text-cyberkarta-light w-fit px-5 py-3 cursor-pointer rounded-lg text-xl hover:bg-blue-600 hover:shadow-lg">
+        <a href="https://discord.com/invite/Ye6D2WKy6C" className="mt-5 bg-cyberkarta-blue text-cyberkarta-light w-fit px-5 py-3 cursor-pointer rounded-lg text-xl hover:bg-blue-600 hover:shadow-lg">
           Gabung Discord
-        </div>
+        </a>
       </div>
     </div>
   );
